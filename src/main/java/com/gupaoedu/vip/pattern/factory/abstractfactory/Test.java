@@ -1,0 +1,17 @@
+package com.gupaoedu.vip.pattern.factory.abstractfactory;
+
+/**
+ * @author : lipu
+ * @since : 2020-04-05 22:23
+ */
+public class Test {
+
+
+    public static void main(String[] args) {
+        CourseFactory factory = new JavaCourseFactory();
+        factory.createNote().edit();
+        factory.createVideo().record();
+
+
+    }
+}
